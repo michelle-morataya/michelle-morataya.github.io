@@ -1,0 +1,71 @@
+h1 {
+color:rgb(0, 0, 0);
+font-family:helvetica;
+background-color: rgb(248, 165, 248);
+border: 10px solid fuchsia;
+border-radius: 20px;
+padding: 30px;
+}
+
+h1 {
+    color: black;
+    Background: white;
+    font-family: "gill sans";
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+.top {
+    background-color: rgb(230, 159, 230);
+    float: left;
+}
+
+p {
+    color: black; 
+    background-color: rgb(255, 255, 255);
+    Border: 2px dotted green;
+    text-align: center;
+    border-radius: 20px;
+} 
+
+#highlight { 
+    color: rgb(69, 6, 255); 
+    background-color:rgb(189, 155, 221);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+h2 {
+    color: purple;
+    background-color: white;
+    border: 10px double rgb(5, 4, 4);
+    font-family: "gill sans";
+    text-align: center;
+    border-radius: 20px;
+}
+
+h3 {
+    color: black; 
+    background-color: lavender;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h4 {
+    color: black;
+    border: 2px dotted black;
+    text-align: center;
+    border-radius: 20px;
+}
+
+img {
+    padding: inherit;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border: 5px solid rgb(162, 90, 233);
+    box-shadow: 5px 5px 3px 1px #999;
+    border-radius: 20px;
+    display: block;
+}
