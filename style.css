@@ -1,44 +1,24 @@
-h1 {
-color:rgb(0, 0, 0);
-font-family:helvetica;
-background-color: rgb(248, 165, 248);
-border: 10px solid fuchsia;
-border-radius: 20px;
-padding: 30px;
-}
-
-h1 {
-    color: black;
-    Background: white;
-    font-family: "gill sans";
-    text-transform: uppercase;
-    border-radius: 20px;
-}
-
 .top {
     background-color: rgb(230, 159, 230);
     float: left;
 }
 
-p {
-    color: black; 
-    background-color: rgb(255, 255, 255);
-    Border: 2px dotted green;
-    text-align: center;
-    border-radius: 20px;
-} 
-
-#highlight { 
-    color: rgb(69, 6, 255); 
-    background-color:rgb(189, 155, 221);
-    border: 2px solid black;
-    border-radius: 20px;
+h1 {
+color:rgb(0, 0, 0);
+font-family:"gill sans";
+background-color: rgb(255, 255, 255);
+border: 5mm ridge fuchsia;
+border-radius: 20px;
+padding: 40px;
+text-align: center;
+text-transform: uppercase;
+font-size: 40px;
 }
 
 h2 {
     color: purple;
     background-color: white;
-    border: 10px double rgb(5, 4, 4);
+    border: 8px double rgb(5, 4, 4);
     font-family: "gill sans";
     text-align: center;
     border-radius: 20px;
@@ -46,24 +26,49 @@ h2 {
 
 h3 {
     color: black; 
-    background-color: lavender;
+    background-color: #ffffff;
     border: 2px solid black;
+    font-family: "gill sans";
     text-align: center;
     border-radius: 20px;
 }
 
 h4 {
     color: black;
+    background-color: white;
     border: 2px dotted black;
+    font-family: "gill sans";
     text-align: center;
     border-radius: 20px;
+    font-size: 18px;
+}
+
+p {
+    color: black; 
+    background-color: rgb(255, 255, 255);
+    Border: 4px double rgb(145, 0, 126);
+    text-align: center;
+    font-family: "gill sans";
+    border-radius: 20px;
+    font-size: 20px;
+    overflow: hidden;
+    padding: 10px;
+} 
+
+#highlight { 
+    color: rgb(0, 0, 0);
+    border: 2mm ridge rgb(145, 0, 126);
+    border-radius: 20px;
+    font-family: "gill sans";
+    font-size: 30px;
+    overflow: hidden;
 }
 
 img {
     padding: inherit;
     margin: auto;
-    width: 500px;
-    height: 500px;
+    width: 20%;
+    height: 20%;
     border: 5px solid rgb(162, 90, 233);
     box-shadow: 5px 5px 3px 1px #999;
     border-radius: 20px;
